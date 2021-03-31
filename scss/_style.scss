@@ -1,0 +1,180 @@
+/******$Algemeen******/
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+html {
+    height: 100vh;
+}
+/*** COLORS ***/
+$whity: #FFFFFF;
+$pinkish: #FFCCD0;
+$lightPink: #FFF5F6;
+$dark : #272727;
+$veryPink :#FF9AA2;
+$greyish :#0000001A;
+$darkGreyish : #5C5C5C;
+$blueIsh: #1E2832;
+
+/*** FONTS ***/
+/*font-family: brandon-grotesque, sans-serif;
+font-weight: 300; light-italic
+font-style: italic;
+font-family: brandon-grotesque, sans-serif;
+font-weight: 300;
+font-style: normal;
+font-family: brandon-grotesque, sans-serif;
+font-weight: 400; regular
+font-style: normal;
+font-family: brandon-grotesque, sans-serif;
+font-weight: 700;
+font-style: normal;
+font-family: linotype-didot-headline, serif;
+font-weight: 400; reg
+font-style: normal;
+font-family: linotype-didot, serif;
+font-weight: 700; bold
+font-style: normal;
+ */
+
+/*** LOGO***/
+.outside_box{
+    height: 47px;
+    background: $pinkish;
+}
+.logo{
+    width: 255px;
+}
+.b-51{
+    bottom: 51px;
+}
+/** send cards **/
+article h1 {
+    font-size: 3rem;
+    font-family:linotype-didot, serif;
+    font-weight: 700;
+    font-style: normal;
+}
+.secondSpan{
+    font-family:linotype-didot-headline, serif;
+    font-size: 3rem;
+    font-weight: 400;
+    font-style: normal;
+}
+.highlight{
+    background: linear-gradient(180deg,rgba(255,255,255,0) 50%, $pinkish 50%);
+}
+ #id1{
+    font-family: brandon-grotesque, sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 1.125rem;
+}
+.pr-30{
+    padding-right: 30%;
+}
+#box_title{
+    font-family: brandon-grotesque, sans-serif;
+    font-size: 1.875rem;
+    span{
+        font-weight: bold;
+    }
+}
+#box_2  {
+
+    border-color: $veryPink;
+    position: relative;
+    height: 157px;
+    bottom: 14%;
+    left: 2%;
+    background: $lightPink;
+    width: 90%;
+    padding: 4% 6%;
+     p{
+         font-family: brandon-grotesque, sans-serif;
+         font-size: 1rem;
+     }
+ }
+.box{
+    border-style: dashed ;
+    border-color: lightpink;
+    position: absolute;
+    top: -2%;
+    width: 90%;
+    height: 157px;
+
+}
+/** een kaart voor élk moment**/
+.bg-pinky{
+    background: $lightPink;
+    margin-top: -9%;
+}
+.pt-13{
+    padding-top: 13%;
+    h2{
+        font-family: linotype-didot-headline, serif;
+        font-size: 1.875rem;
+    }
+    a{
+        font-family: brandon-grotesque, sans-serif;
+        font-size: 1rem;
+        color:$veryPink !important;
+        text-decoration: none !important;
+    }
+}
+.rack{
+    position: relative;
+    top: -49%;
+}
+
+.text-length{
+    position: relative;
+    top: -37%;
+    font-family: brandon-grotesque, sans-serif;
+    font-size: 1rem;
+    font-weight: 700;
+    color: $veryPink;
+}
+
+
+
+
+
+
+
+
+
+
+
+/************************* 
+SCREENS LARGER THEN MOBILE
+ **************************/
+
+/*sm*/
+@media (min-width: 320px) {
+
+}
+
+@media(max-width:425px) {
+#box_2{
+    padding: 0% 4%;
+}
+
+}
+
+/*md*/
+@media (min-width: 768px) {
+article h1, .secondSpan{
+    font-size: 4.6875rem;
+}
+
+
+}
+
+/*lg*/
+@media (min-width: 992px) {
+
+
+}
