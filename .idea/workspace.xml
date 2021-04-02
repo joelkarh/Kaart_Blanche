@@ -2550,6 +2550,12 @@
       <change beforePath="$PROJECT_DIR$/../../vuejs/webfonts/Raleway-Medium.ttf" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../vuejs/webfonts/Raleway-Regular.ttf" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../vuejs/webfonts/Raleway-SemiBold.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/bootstrap.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/bootstrap.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/bootstrap.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/bootstrap.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/_style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/_style.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -2560,7 +2566,7 @@
     <execution />
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1qWNyyQxPI17dLcJHLcCtcjIcnk" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -2594,7 +2600,9 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1617191645894</updated>
-      <workItem from="1617191647421" duration="23280000" />
+      <workItem from="1617191647421" duration="25286000" />
+      <workItem from="1617232803244" duration="8598000" />
+      <workItem from="1617292919178" duration="16589000" />
     </task>
     <servers />
   </component>
@@ -2611,5 +2619,6 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
 </project>

@@ -7,16 +7,19 @@
 
 html {
     height: 100vh;
+    scroll-behavior: smooth;
 }
 /*** COLORS ***/
 $whity: #FFFFFF;
 $pinkish: #FFCCD0;
 $lightPink: #FFF5F6;
+$pinky:#FFB7B2;
 $dark : #272727;
 $veryPink :#FF9AA2;
 $greyish :#0000001A;
 $darkGreyish : #5C5C5C;
 $blueIsh: #1E2832;
+
 
 /*** FONTS ***/
 /*font-family: brandon-grotesque, sans-serif;
@@ -42,7 +45,7 @@ font-style: normal;
 /*** LOGO***/
 .outside_box{
     height: 47px;
-    background: $pinkish;
+    background: $lightPink;
 }
 .logo{
     width: 255px;
@@ -112,7 +115,7 @@ article h1 {
     margin-top: -9%;
 }
 .pt-13{
-    padding-top: 13%;
+    padding-top: 8%;
     h2{
         font-family: linotype-didot-headline, serif;
         font-size: 1.875rem;
@@ -126,17 +129,133 @@ article h1 {
 }
 .rack{
     position: relative;
-    top: -49%;
+    top: -43%;
 }
 
 .text-length{
     position: relative;
-    top: -37%;
+    top: 0;
     font-family: brandon-grotesque, sans-serif;
     font-size: 1rem;
     font-weight: 700;
     color: $veryPink;
 }
+/** ons portfolio **/
+.link{
+    font-family: brandon-grotesque, sans-serif;
+    font-size: 0.5rem;
+    font-weight: bold;
+    color:$veryPink !important;
+
+}
+h3{
+    font-family: linotype-didot-headline, serif;
+    font-size: 1.875rem;
+}
+.pinkBox{
+
+    background: $lightPink  ;
+    position: absolute;
+    margin-left: auto;
+    left: 13%;
+    top: -51px;
+    z-index: -1;
+
+}
+.text-portfolio{
+    font-family: brandon-grotesque, sans-serif;
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 300;
+    color: $veryPink;
+    padding-top: 4%;
+    margin-bottom: 0;
+
+}
+.text-p2{
+    font-family: brandon-grotesque, sans-serif;
+    font-size: 0.8rem;
+    color: $dark;
+    font-weight: 700;
+    letter-spacing: 0.8px;
+}
+
+/** Contact us **/
+#bg-Pinky{
+   background: linear-gradient(360deg,rgba(255,255,255,0) 30%, $pinky 0%) ;
+    h4{
+        font-family: linotype-didot, serif;
+        font-weight: 700;
+        font-style: normal;
+        color: $whity;
+        font-size: 1.875rem;
+        span{
+            font-family: linotype-didot-headline, serif;
+            font-weight: 400;
+            font-style: normal;
+        }
+    }
+    p{
+        font-size: 1.25rem;
+        font-family: brandon-grotesque, sans-serif;
+        font-style: normal;
+        color: $whity;
+        span{
+            font-weight: 700;
+        }
+    }
+    .weLove{
+         color: $dark !important;
+     }
+
+    textarea, input[type="text"],input[type="email"]{
+        background: $lightPink;
+        border: 1px solid $veryPink;
+        width: 100%;
+        border-radius: 0;
+    }
+    textarea, input[type="text"], input[type="email"]::placeholder{
+        font-family: brandon-grotesque, sans-serif;
+        font-weight: 300;
+        font-style: italic;
+        font-size: 1.25rem;
+        color: $dark;
+        letter-spacing: 1px;
+    }
+
+    .p-6{
+        padding:10%;
+    }
+    textarea{
+        resize: none;
+    }
+
+    button{
+        background: $veryPink;
+        color: $whity;
+        font-family: brandon-grotesque, sans-serif;
+        z-index: 5;
+        position: relative;
+
+    }
+    .formi{
+        box-shadow: 0 5px 20px #0000001A;
+        position: relative;
+
+    }
+
+}
+/** footer**/
+.footertekst,.footertekst > a{
+    font-family: brandon-grotesque, sans-serif;
+    font-size: 0.9375rem;
+    color: $darkGreyish;
+    opacity: 1;
+    text-align: left;
+
+}
+
+
 
 
 
@@ -154,13 +273,24 @@ SCREENS LARGER THEN MOBILE
 
 /*sm*/
 @media (min-width: 320px) {
-
+    .ml-20{
+        margin-left: 20%;
+    }
 }
 
 @media(max-width:425px) {
 #box_2{
-    padding: 0% 4%;
+    padding: 0 4%;
 }
+    .rack{
+        top: -40%;
+    }
+    .lineH{
+        line-height: 45px;
+    }
+    #bg-Pinky{
+        margin-top: -3%;
+    }
 
 }
 
@@ -169,12 +299,56 @@ SCREENS LARGER THEN MOBILE
 article h1, .secondSpan{
     font-size: 4.6875rem;
 }
+    .link{
+        font-size: 1rem;
+    }
+    .pinkBox{
+        height: 340px;
+        width: 90%;
+    }
+    .text-p2{
+        font-size: 1rem;
+    }
+    .pr-lg-6{
+        padding-right:32%;
+    }
+
+
+
+
 
 
 }
 
 /*lg*/
 @media (min-width: 992px) {
-
-
+    .pinkBox{
+        width: 1200px ;
+        height: 510px;
+    }
+    .text-length{
+        top: -37%;
+    }
+    .ml-34{
+        margin-left: 34%;
+    }
+    .formi{
+        top: -5%;
+    }
+    .formi{
+        width: 670px;
+        opacity: 1;
+        right: 5%;
+    }
+    .footercontainer1{
+        position: relative;
+        bottom: 0;
+        top: 500px;
+        z-index: 1;
+    }
+    #bg-Pinky{
+        position: absolute;
+    }
 }
+
+
